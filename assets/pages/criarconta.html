@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Página Criar Conta</title>
+
+    <!-- Vincula o CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Vincula as fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Container para a mensagem introdutória e o formulário de registro -->
+    <div class="container">
+
+        <!-- Mensagem introdutória -->
+        <div class="box-style">Controle suas finanças de forma simples e eficiente. Cadastre-se em nosso aplicativo!
+        </div>
+
+        <!-- O formulário com o id 'dados', método 'post' -->
+        <form id="dados" name="dados" method="post" action="">
+            <div class="formatacao-formulario">
+                <!-- Campo de entrada para o nome completo -->
+                <input type="text" placeholder="Nome Completo" id="NomeSobrenome" name="NomeSobrenome" required>
+            </div>
+            <div class="formatacao-formulario">
+                <!-- Campo de entrada para e-mail -->
+                <input type="email" placeholder="digite o seu e-mail" id="e-mail" name="e-mail" required>
+            </div>
+            <div class="formatacao-formulario">
+                <!-- Campo de entrada para data de nascimento -->
+                <input type="date" placeholder="Data de Nascimento" id="dtNasc" name="dtNasc" required>
+            </div>
+            <div class="formatacao-formulario">
+                <!-- Campo de entrada para CPF -->
+                <input type="number" placeholder="CPF" id="CPF" name="CPF" required>
+            </div>
+            <div class="formatacao-formulario">
+                <!-- Campo de entrada para senha -->
+                <input type="password" placeholder="Senha" id="senha" name="senha" required>
+            </div>
+            <div class="formatacao-formulario">
+                <!-- Campo de entrada para confirmação de senha -->
+                <input type="password" placeholder="Confirmar Senha" id="confirmarSenha" name="confirmarSenha" required>
+            </div>
+            <!-- Botão para submeter o formulário -->
+            <button type="submit" class="formatacao-botao">Login</button>
+        </form>
+    </div>
+</body>

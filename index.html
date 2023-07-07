@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Fintech</title>
+
+    <!-- Vinculando a folha de estilo do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Vincula o CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Vincula a fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Div contendo o logo da empresa -->
+    <div class="center">
+        <img src="./assets/images/stock-exchange-app 1logo.svg" alt="logotipo Fintech">
+    </div>
+
+    <!-- Título da empresa -->
+    <div class="titulo-logo">
+        <h1>FINTECH</h1>
+    </div>
+
+    <!-- Container para o formulário de login -->
+    <div class="container">
+
+        <!-- O formulário com o id 'dados', método 'post' e classe 'form' -->
+        <form id="dados" name="dados" method="post" action="" class="form">
+            <div class="formatacao-formulario">
+                <!-- Campo de entrada para e-mail -->
+                <input type="email" placeholder="e-mail" id="e-mail" name="e-mail" required>
+            </div>
+            <div class="formatacao-formulario">
+                <!-- Campo de entrada para senha -->
+                <input type="password" placeholder="Senha" id="senha" name="senha" required>
+            </div>
+            <div class="fonte-link">
+                <!-- Link para a página de criação de conta -->
+                <a href="./assets/pages/criarconta.html" target="_blank">Criar Conta</a>
+            </div>
+
+            <!-- Botão para submeter o formulário -->
+            <button type="submit" class="formatacao-botao">Login</button>
+        </form>
+    </div>
+
+    <!-- Vincula o script Javascript do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
